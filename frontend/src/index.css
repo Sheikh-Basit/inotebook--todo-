@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Apply all classes into the list items in Navbar for animation */
+
+.list-animation{
+    @apply before:content-[""] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:bg-white hover:before:w-full before:transition-all before:duration-500
+
+}
